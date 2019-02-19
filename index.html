@@ -1,193 +1,1243 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Switch Template</title>
-    <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|IBM+Plex+Sans:600" rel="stylesheet">
-    <link rel="stylesheet" href="dist/css/style.css">
-    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-</head>
-<body class="is-boxed has-animations">
-    <div class="body-wrap boxed-container">
-        <header class="site-header">
-            <div class="container">
-                <div class="site-header-inner">
-                    <div class="brand header-brand">
-                        <h1 class="m-0">
-                            <a href="#">
-								<img class="header-logo-image asset-light" src="dist/images/logo-light.svg" alt="Logo">
-								<img class="header-logo-image asset-dark" src="dist/images/logo-dark.svg" alt="Logo">
-                            </a>
-                        </h1>
-                    </div>
-                </div>
-            </div>
-        </header>
-
-        <main>
-            <section class="hero">
-                <div class="container">
-                    <div class="hero-inner">
-						<div class="hero-copy">
-	                        <h1 class="hero-title mt-0">Landing template for startups</h1>
-	                        <p class="hero-paragraph">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
-	                        <div class="hero-cta">
-								<a class="button button-primary" href="#">Buy it now</a>
-								<div class="lights-toggle">
-									<input id="lights-toggle" type="checkbox" name="lights-toggle" class="switch" checked="checked">
-									<label for="lights-toggle" class="text-xs"><span>Turn me <span class="label-text">dark</span></span></label>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		
+		
+		<title>Modern & Minimal Resume / CV & vCard Template</title>
+		
+		
+		<!--=====================================================
+			CSS Stylesheets
+		=====================================================-->
+		<link rel='stylesheet' type='text/css' href='bootstrap/css/bootstrap.min.css' >
+		<link rel='stylesheet' type='text/css' href='css/linea.css' >
+		<link rel='stylesheet' type='text/css' href='css/ionicons.min.css' >
+		<link rel='stylesheet' type='text/css' href='css/owl.carousel.css' >
+		<link rel='stylesheet' type='text/css' href='css/magnific-popup.css' >
+		<link rel='stylesheet' type='text/css' href='css/style.css' >
+		
+	</head>
+	<body>
+		
+		
+		<!--=====================================================
+			Preloader
+		=====================================================-->
+		<div id='preloader' >
+			<div class='loader' ></div>
+			<div class='left' ></div>
+			<div class='right' ></div>
+		</div>
+		
+		
+		<div class='main-content' >
+			
+			<!--=====================================================
+				Page Borders
+			=====================================================-->
+			<div class='page-border border-left' ></div>
+			<div class='page-border border-right' ></div>
+			<div class='page-border border-top' ></div>
+			<div class='page-border border-bottom' ></div>
+			
+			
+			
+			<!--=====================================================
+				Menu Button
+			=====================================================-->
+			<a href='#' class='menu-btn' >
+				<span class='lines' >
+					<span class='l1' ></span>
+					<span class='l2' ></span>
+					<span class='l3' ></span>
+				</span>
+			</a>
+			
+			
+			<!--=====================================================
+				Menu
+			=====================================================-->
+			<div class='menu' >
+				<div class='inner' >
+					<ul class='menu-items' >
+						
+						<li>
+							<a href='#' class='section-toggle' data-section='intro' >
+								Home
+							</a>
+						</li>
+						
+						<li>
+							<a href='#about' class='section-toggle' data-section='about' >
+								About
+							</a>
+						</li>
+						
+						<li>
+							<a href='#resume' class='section-toggle' data-section='resume' >
+								Resume
+							</a>
+						</li>
+						
+						<li>
+							<a href='#portfolio' class='section-toggle' data-section='portfolio' >
+								Portfolio
+							</a>
+						</li>
+						
+						
+						<li>
+							<a href='#contact' class='section-toggle' data-section='contact' >
+								Contact
+							</a>
+						</li>
+						
+						
+					</ul>
+				</div>
+			</div>
+			
+			<div class='animation-block' ></div>
+			
+			
+			<!--=====================================================
+				Sections
+			=====================================================-->
+			<div class='sections' >
+				
+				<!--=====================================================
+					Main Section
+				=====================================================-->
+				<section id='intro' class='section section-main active' >
+					
+					<div class='container-fluid' >
+						
+						<div class='v-align' >
+							<div class='inner' >
+								<div class='intro-text' >
+									
+									<h1>I'm John Doe</h1>
+									
+									<p>
+										A Friend, Dude and Buddy From Earth
+									</p>
+									
+									<div class='intro-btns' >
+										
+										<a href='#about' class='btn-custom section-toggle' data-section='about' >
+											Discover More
+										</a>
+										
+										<a href='#contact' class='btn-custom section-toggle' data-section='contact' >
+											Hire Me
+										</a>
+										
+									</div>
+									
 								</div>
 							</div>
+							
 						</div>
-						<div class="hero-media">
-							<div class="header-illustration">
-								<img class="header-illustration-image asset-light" src="dist/images/header-illustration-light.svg" alt="Header illustration">
-								<img class="header-illustration-image asset-dark" src="dist/images/header-illustration-dark.svg" alt="Header illustration">
+						
+					</div>
+				
+				</section>
+				
+				
+				<!--=====================================================
+					About Section
+				=====================================================-->
+				<section id='about' class='section about-section border-d' >
+					
+					<div class='section-block about-block' >
+						<div class='container-fluid' >
+							
+							<div class='section-header' >
+								<h2>
+									I'm a <strong class='color' >Programmer</strong>
+								</h2>
 							</div>
-							<div class="hero-media-illustration">
-								<img class="hero-media-illustration-image asset-light" src="dist/images/hero-media-illustration-light.svg" alt="Hero media illustration">
-								<img class="hero-media-illustration-image asset-dark" src="dist/images/hero-media-illustration-dark.svg" alt="Hero media illustration">
+							
+							<div class='row' >
+								
+								<div class='col-md-4' >
+									
+									<ul class='info-list' >
+										
+										<li>
+											<strong>Name:</strong>
+											<span>John Doe</span>
+										</li>
+										
+										<li>
+											<strong>Job:</strong>
+											<span>Freelancer</span>
+										</li>
+										
+										<li>
+											<strong>Age:</strong>
+											<span>26 Years</span>
+										</li>
+										
+										<li>
+											<strong>Residence:</strong>
+											<span>United States</span>
+										</li>
+										
+										<li>
+											<strong>Hometown:</strong>
+											<span>Dokri</span>
+										</li>
+										
+										
+										
+									</ul>
+									
+								</div>
+								
+								<div class='col-md-8' >
+								
+									<div class='about-text' >
+										<p>
+											Qui ne indoctum electram vituperatoribus. Eirmod tamquam efficiendi mei cu, eum idque voluptatum ad, quo id tollit regione prompta. Cu probo iusto assentior eos, usu summo perpetua ne. Te suas phaedrum ullamcorper has. Ea mei ponderum rationibus dissentias. Inani phaedrum suavitate eu qui, vide aperiri facilis est eu. Te appetere cotidieque pro, duo eu assum facete instructior, no autem aeterno reprimique nec. Pri cu delectus adolescens, eruditi placerat cu sed, zril nonumes forensibus in eam. Eam ne dolore diceret pericula, in vis numquam pertinax. Vel ne dolorum eloquentiam, et vel senserit incorrupte neglegentur, pro cu audiam ocurreret reprimique.
+										</p>
+										
+										<p>
+											Qui ne indoctum electram vituperatoribus. Eirmod tamquam efficiendi mei cu, eum idque voluptatum ad, quo id tollit regione prompta. Cu probo iusto assentior. Qui ne indoctum electram vituperatoribus. Eirmod tamquam efficiendi mei cu, eum idque voluptatum ad.
+										</p>
+										
+									</div>
+									
+									<div class='about-btns' >
+										
+										<a href='#' class='btn-custom btn-color' >
+											Download Resume
+										</a>
+										
+										<a href='#' class='btn-custom btn-color' >
+											Hire Me
+										</a>
+										
+									</div>
+									
+								</div>
+								
 							</div>
-							<div class="hero-media-container">
-								<img class="hero-media-image asset-light" src="dist/images/hero-media-light.svg" alt="Hero media">
-								<img class="hero-media-image asset-dark" src="dist/images/hero-media-dark.svg" alt="Hero media">
-							</div>
+							
 						</div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="features section">
-                <div class="container">
-					<div class="features-inner section-inner has-bottom-divider">
-						<div class="features-header text-center">
-							<div class="container-sm">
-								<h2 class="section-title mt-0">The Product</h2>
-	                            <p class="section-paragraph">Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or visual presentation.</p>
-								<div class="features-image">
-									<img class="features-illustration asset-dark" src="dist/images/features-illustration-dark.svg" alt="Feature illustration">
-									<img class="features-box asset-dark" src="dist/images/features-box-dark.svg" alt="Feature box">
-									<img class="features-illustration asset-dark" src="dist/images/features-illustration-top-dark.svg" alt="Feature illustration top">
-									<img class="features-illustration asset-light" src="dist/images/features-illustration-light.svg" alt="Feature illustration">
-									<img class="features-box asset-light" src="dist/images/features-box-light.svg" alt="Feature box">
-									<img class="features-illustration asset-light" src="dist/images/features-illustration-top-light.svg" alt="Feature illustration top">
-								</div>
+					</div>
+					
+					<div class='section-block services-block' >
+						
+						<div class='container-fluid' >
+							
+							<div class='section-header' >
+								
+								<h2>My <strong class='color' >Services</strong></h2>
+								
 							</div>
-                        </div>
-                        <div class="features-wrap">
-                            <div class="feature is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-										<img class="asset-light" src="dist/images/feature-01-light.svg" alt="Feature 01">
-										<img class="asset-dark" src="dist/images/feature-01-dark.svg" alt="Feature 01">
-                                    </div>
-									<div class="feature-content">
-                                    	<h3 class="feature-title mt-0">Discover</h3>
-                                    	<p class="text-sm mb-0">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dui.</p>
+							
+							
+							
+							<div class='row' >
+								
+								<div class='col-md-4' >
+									<div class='service' >
+										
+										<div class='icon' >
+											<i class='icon-basic-photo' ></i>
+										</div>
+										
+										<div class='content' >
+											
+											<h4>Photography</h4>
+											
+											<p>
+												Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate similique in. Vide assum conceptam eum.
+											</p>
+											
+										</div>
+										
 									</div>
 								</div>
-                            </div>
-							<div class="feature is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-										<img class="asset-light" src="dist/images/feature-02-light.svg" alt="Feature 02">
-										<img class="asset-dark" src="dist/images/feature-02-dark.svg" alt="Feature 02">
-                                    </div>
-									<div class="feature-content">
-                                    	<h3 class="feature-title mt-0">Discover</h3>
-                                    	<p class="text-sm mb-0">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dui.</p>
+								
+								<div class='col-md-4' >
+									<div class='service' >
+										
+										<div class='icon' >
+											<i class='icon-basic-keyboard' ></i>
+										</div>
+										
+										<div class='content' >
+											
+											<h4>Programming</h4>
+											
+											<p>
+												Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate similique in. Vide assum conceptam eum.
+											</p>
+											
+										</div>
+										
 									</div>
 								</div>
-                            </div>
-							<div class="feature is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-										<img class="asset-light" src="dist/images/feature-03-light.svg" alt="Feature 03">
-										<img class="asset-dark" src="dist/images/feature-03-dark.svg" alt="Feature 03">
-                                    </div>
-									<div class="feature-content">
-                                    	<h3 class="feature-title mt-0">Discover</h3>
-                                    	<p class="text-sm mb-0">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dui.</p>
+								
+								<div class='col-md-4' >
+									<div class='service' >
+										
+										<div class='icon' >
+											<i class='ion-social-wordpress-outline' ></i>
+										</div>
+										
+										<div class='content' >
+											
+											<h4>WordPress</h4>
+											
+											<p>
+												Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate similique in. Vide assum conceptam eum.
+											</p>
+											
+										</div>
+										
 									</div>
 								</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-			<section class="cta section">
-                <div class="container-sm">
-                    <div class="cta-inner section-inner">
-                        <div class="cta-header text-center">
-                            <h2 class="section-title mt-0">Get it and Switch</h2>
-                            <p class="section-paragraph">Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or visual presentation.</p>
-							<div class="cta-cta">
-								<a class="button button-primary" href="#">Buy it now</a>
+								
+								
+								
 							</div>
-					    </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <footer class="site-footer has-top-divider">
-            <div class="container">
-                <div class="site-footer-inner">
-                    <div class="brand footer-brand">
-                        <a href="#">
-							<img class="asset-light" src="dist/images/logo-light.svg" alt="Logo">
-							<img class="asset-dark" src="dist/images/logo-dark.svg" alt="Logo">
-                        </a>
-                    </div>
-                    <ul class="footer-links list-reset">
-                        <li>
-                            <a href="#">Contact</a>
-                        </li>
-                        <li>
-                            <a href="#">About us</a>
-                        </li>
-                        <li>
-                            <a href="#">FAQ's</a>
-                        </li>
-                        <li>
-                            <a href="#">Support</a>
-                        </li>
-                    </ul>
-                    <ul class="footer-social-links list-reset">
-                        <li>
-                            <a href="#">
-                                <span class="screen-reader-text">Facebook</span>
-                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M6.023 16L6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023z" fill="#FFF"/>
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="screen-reader-text">Twitter</span>
-                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z" fill="#FFF"/>
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="screen-reader-text">Google</span>
-                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z" fill="#FFF"/>
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="footer-copyright">&copy; 2018 Switch, all rights reserved</div>
-                </div>
-            </div>
-        </footer>
-    </div>
-
-    <script src="dist/js/main.min.js"></script>
-</body>
+							
+							
+						</div>
+						
+					</div>
+					
+					<div class='section-block skills-block' >
+						<div class='container-fluid' >
+							
+							<div class='section-header' >
+								
+								<h2>
+									My <strong class='color' >Skills</strong>
+								</h2>
+								
+							</div>
+							
+							<div class='row' >
+								
+								<div class='col-md-6' >
+									
+									<div class='skill' >
+										
+										<h4>HTML/CSS</h4>
+										
+										<div class='bar' >
+											<div class='percent' style='width:85%;' ></div>
+										</div>
+										
+									</div>
+									
+									
+									<div class='skill' >
+										
+										<h4>php</h4>
+										
+										<div class='bar' >
+											<div class='percent' style='width:90%;' ></div>
+										</div>
+										
+									</div>
+									
+									
+									<div class='skill' >
+										
+										<h4>jQuery</h4>
+										
+										<div class='bar' >
+											<div class='percent' style='width:75%;' ></div>
+										</div>
+										
+									</div>
+									
+								</div>
+								
+								<div class='col-md-6' >
+									
+									<div class='skill' >
+										
+										<h4>JavaScript</h4>
+										
+										<div class='bar' >
+											<div class='percent' style='width:85%;' ></div>
+										</div>
+										
+									</div>
+									
+									
+									<div class='skill' >
+										
+										<h4>WordPress</h4>
+										
+										<div class='bar' >
+											<div class='percent' style='width:90%;' ></div>
+										</div>
+										
+									</div>
+									
+									
+									<div class='skill' >
+										
+										<h4>SEO</h4>
+										
+										<div class='bar' >
+											<div class='percent' style='width:75%;' ></div>
+										</div>
+										
+									</div>
+									
+								</div>
+								
+							</div>
+							
+							
+						</div>
+					</div>
+					
+					<div class='section-block pricing-block' >
+						
+						<div class='section-header' >
+							<h2>My <strong class='color' >Pricing</strong></h2>
+						</div>
+						
+						
+						<div class='row' >
+							
+							<div class='col-md-4' >
+								
+								<div class='p-table' >
+									
+									<div class='header' >
+										
+										<h4>Basic</h4>
+										
+										<div class='price' >
+											<span class='currency' >$</span>
+											<span class='amount' >19</span>
+											<span class='period' >/HR</span>
+										</div>
+										
+										
+									</div>
+									
+									<ul class='items' >
+										<li>
+											App Designing
+										</li>
+										<li>
+											App Development
+										</li>
+										<li>
+											Web Development
+										</li>
+									</ul>
+									
+									<a href='#' class='btn-custom btn-color' >
+										Choose This
+									</a>
+									
+								</div>
+								
+							</div>
+							
+							<div class='col-md-4' >
+								
+								<div class='p-table' >
+									
+									<div class='header' >
+										
+										<h4>Pro</h4>
+										
+										<div class='price' >
+											<span class='currency' >$</span>
+											<span class='amount' >29</span>
+											<span class='period' >/HR</span>
+										</div>
+										
+										
+									</div>
+									
+									<ul class='items' >
+										<li>
+											App Designing
+										</li>
+										<li>
+											App Development
+										</li>
+										<li>
+											Web Development
+										</li>
+									</ul>
+									
+									<a href='#' class='btn-custom btn-color' >
+										Choose This
+									</a>
+									
+								</div>
+								
+							</div>
+							
+							<div class='col-md-4' >
+								
+								<div class='p-table' >
+									
+									<div class='header' >
+										
+										<h4>Gold</h4>
+										
+										<div class='price' >
+											<span class='currency' >$</span>
+											<span class='amount' >39</span>
+											<span class='period' >/HR</span>
+										</div>
+										
+										
+									</div>
+									
+									<ul class='items' >
+										<li>
+											App Designing
+										</li>
+										<li>
+											App Development
+										</li>
+										<li>
+											Web Development
+										</li>
+									</ul>
+									
+									<a href='#' class='btn-custom btn-color' >
+										Choose This
+									</a>
+									
+								</div>
+								
+							</div>
+							
+							
+						</div>
+						
+						
+					</div>
+					
+				</section>
+				
+				
+				<!--=====================================================
+					Resume Section
+				=====================================================-->
+				<section id='resume' class='section resume-section border-d' >
+					
+					<div class='section-block timeline-block' >
+						
+						<div class='container-fluid' >
+							
+							<div class='section-header' >
+								
+								<h2>My <strong class='color' >Education</strong></h2>
+								
+							</div>
+							
+							<ul class='timeline' >
+								
+								<li>
+									
+									<div class='timeline-content' >
+										
+										<h4>CSS College Larkana</h4>
+										
+										<em>
+											<span>Masters Degree</span>
+											<span>2013-2016</span>
+										</em>
+										
+										<p>
+											Lorem ipsum dolor sit amet, id electram reprimique his, dicta saepe oporteat eos an, esse erat doming at lam. Nec quodsi suscipiantur an, ad graece nemore ocurreret lam, agam ipsum meliore quo ut.
+										</p>
+										
+									</div>
+									
+								</li>
+								
+								<li>
+									
+									<div class='timeline-content' >
+										
+										<h4>CSS College Larkana</h4>
+										
+										<em>
+											<span>Masters Degree</span>
+											<span>2013-2016</span>
+										</em>
+										
+										<p>
+											Lorem ipsum dolor sit amet, id electram reprimique his, dicta saepe oporteat eos an, esse erat doming at lam. Nec quodsi suscipiantur an, ad graece nemore ocurreret lam, agam ipsum meliore quo ut.
+										</p>
+										
+									</div>
+									
+								</li>
+								
+								<li>
+									
+									<div class='timeline-content' >
+										
+										<h4>CSS College Larkana</h4>
+										
+										<em>
+											<span>Masters Degree</span>
+											<span>2013-2016</span>
+										</em>
+										
+										<p>
+											Lorem ipsum dolor sit amet, id electram reprimique his, dicta saepe oporteat eos an, esse erat doming at lam. Nec quodsi suscipiantur an, ad graece nemore ocurreret lam, agam ipsum meliore quo ut.
+										</p>
+										
+									</div>
+									
+								</li>
+								
+								
+								
+							</ul>
+							
+						</div>
+						
+					</div>
+					
+					<div class='section-block timeline-block' >
+						
+						<div class='container-fluid' >
+							
+							<div class='section-header' >
+								
+								<h2>My <strong class='color' >Experience</strong></h2>
+								
+							</div>
+							
+							<ul class='timeline' >
+								
+								<li>
+									
+									<div class='timeline-content' >
+										
+										<h4>CSS College Larkana</h4>
+										
+										<em>
+											<span>Masters Degree</span>
+											<span>2013-2016</span>
+										</em>
+										
+										<p>
+											Lorem ipsum dolor sit amet, id electram reprimique his, dicta saepe oporteat eos an, esse erat doming at lam. Nec quodsi suscipiantur an, ad graece nemore ocurreret lam, agam ipsum meliore quo ut.
+										</p>
+										
+									</div>
+									
+								</li>
+								
+								<li>
+									
+									<div class='timeline-content' >
+										
+										<h4>CSS College Larkana</h4>
+										
+										<em>
+											<span>Masters Degree</span>
+											<span>2013-2016</span>
+										</em>
+										
+										<p>
+											Lorem ipsum dolor sit amet, id electram reprimique his, dicta saepe oporteat eos an, esse erat doming at lam. Nec quodsi suscipiantur an, ad graece nemore ocurreret lam, agam ipsum meliore quo ut.
+										</p>
+										
+									</div>
+									
+								</li>
+								
+								<li>
+									
+									<div class='timeline-content' >
+										
+										<h4>CSS College Larkana</h4>
+										
+										<em>
+											<span>Masters Degree</span>
+											<span>2013-2016</span>
+										</em>
+										
+										<p>
+											Lorem ipsum dolor sit amet, id electram reprimique his, dicta saepe oporteat eos an, esse erat doming at lam. Nec quodsi suscipiantur an, ad graece nemore ocurreret lam, agam ipsum meliore quo ut.
+										</p>
+										
+									</div>
+									
+								</li>
+								
+								
+								
+							</ul>
+							
+						</div>
+						
+					</div>
+					
+					<div class='section-block testimonials-block' >
+						
+						<div class='container-fluid' >
+							
+							<div class='section-header' >
+								
+								<h2>My <strong class='color' >Clients</strong></h2>
+								
+							</div>
+							
+							
+							<div class='testimonials-slider' >
+								
+								
+								<div class='testimonial' >
+									
+									<div class='icon' >
+										<i class='ion-quote' ></i>
+									</div>
+									
+									<p>
+										Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate similique in. Vide assum conceptam eum et. Has postulant vul putate eu. Pro justo aliquando prodesset at.
+									</p>
+									
+									<div class='author' >
+										<h4>Jake Doe</h4>
+										<span>CEO at Company</span>
+									</div>
+									
+								</div>
+								
+								<div class='testimonial' >
+									
+									<div class='icon' >
+										<i class='ion-quote' ></i>
+									</div>
+									
+									<p>
+										Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate similique in. Vide assum conceptam eum et. Has postulant vul putate eu. Pro justo aliquando prodesset at.
+									</p>
+									
+									<div class='author' >
+										<h4>Jake Doe</h4>
+										<span>CEO at Company</span>
+									</div>
+									
+								</div>
+								
+								
+								<div class='testimonial' >
+									
+									<div class='icon' >
+										<i class='ion-quote' ></i>
+									</div>
+									
+									<p>
+										Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate similique in. Vide assum conceptam eum et. Has postulant vul putate eu. Pro justo aliquando prodesset at.
+									</p>
+									
+									<div class='author' >
+										<h4>Jake Doe</h4>
+										<span>CEO at Company</span>
+									</div>
+									
+								</div>
+								
+								<div class='testimonial' >
+									
+									<div class='icon' >
+										<i class='ion-quote' ></i>
+									</div>
+									
+									<p>
+										Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate similique in. Vide assum conceptam eum et. Has postulant vul putate eu. Pro justo aliquando prodesset at.
+									</p>
+									
+									<div class='author' >
+										<h4>Jake Doe</h4>
+										<span>CEO at Company</span>
+									</div>
+									
+								</div>
+								
+								
+								<div class='testimonial' >
+									
+									<div class='icon' >
+										<i class='ion-quote' ></i>
+									</div>
+									
+									<p>
+										Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate similique in. Vide assum conceptam eum et. Has postulant vul putate eu. Pro justo aliquando prodesset at.
+									</p>
+									
+									<div class='author' >
+										<h4>Jake Doe</h4>
+										<span>CEO at Company</span>
+									</div>
+									
+								</div>
+								
+								<div class='testimonial' >
+									
+									<div class='icon' >
+										<i class='ion-quote' ></i>
+									</div>
+									
+									<p>
+										Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate similique in. Vide assum conceptam eum et. Has postulant vul putate eu. Pro justo aliquando prodesset at.
+									</p>
+									
+									<div class='author' >
+										<h4>Jake Doe</h4>
+										<span>CEO at Company</span>
+									</div>
+									
+								</div>
+								
+								
+							</div>
+							
+						</div>
+						
+					</div>
+					
+				</section>
+				
+				
+				<!--=====================================================
+					Portfolio Section
+				=====================================================-->
+				<section id='portfolio' class='section portfolio-section border-d' >
+					
+					<div class='section-block portfolio-block' >
+						
+						<div class='container-fluid' >
+							
+							
+							<div class='section-header' >
+								<h2>My <strong class='color' >Works</strong></h2>
+							</div>
+							
+							<ul class='portfolio-filters' >
+								<li>
+									<a href='#' class='active' data-group='all' >
+										All
+									</a>
+								</li>
+								<li>
+									<a href='#' data-group='web' >
+										Web
+									</a>
+								</li>
+								<li>
+									<a href='#' data-group='tech' >
+										Tech
+									</a>
+								</li>
+								<li>
+									<a href='#' data-group='photography' >
+										Photography
+									</a>
+								</li>
+							</ul>
+							
+							<ul class='portfolio-items' >
+								
+								<li data-groups='["web","tech"]' >
+									<div class='inner' >
+										<img src='img/portfolio/1.jpg' alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-1' class='view-project' >
+												View Project
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-1' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src='img/portfolio/1.jpg' alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>My Project Title</h4>
+													
+													<!--project popup description-->
+													<p>
+														Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat vituperata suscipiantur et, et fabellas explicari adipiscing quo, no mucius euismod vis. Cu vim quem quod cibo.
+													</p>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+								
+								<li data-groups='["tech","photography"]' >
+									<div class='inner' >
+										<img src='img/portfolio/2.jpg' alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-2' class='view-project' >
+												View Project
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-2' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src='img/portfolio/2.jpg' alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>My Project Title</h4>
+													
+													<!--project popup description-->
+													<p>
+														Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat vituperata suscipiantur et, et fabellas explicari adipiscing quo, no mucius euismod vis. Cu vim quem quod cibo.
+													</p>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+								
+								<li data-groups='["web","photography"]' >
+									<div class='inner' >
+										<img src='img/portfolio/3.jpg' alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-3' class='view-project' >
+												View Project
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-3' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src='img/portfolio/3.jpg' alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>My Project Title</h4>
+													
+													<!--project popup description-->
+													<p>
+														Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat vituperata suscipiantur et, et fabellas explicari adipiscing quo, no mucius euismod vis. Cu vim quem quod cibo.
+													</p>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+								
+								
+								<li data-groups='["web"]' >
+									<div class='inner' >
+										<img src='img/portfolio/4.jpg' alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-4' class='view-project' >
+												View Project
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-4' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src='img/portfolio/4.jpg' alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>My Project Title</h4>
+													
+													<!--project popup description-->
+													<p>
+														Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat vituperata suscipiantur et, et fabellas explicari adipiscing quo, no mucius euismod vis. Cu vim quem quod cibo.
+													</p>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+								
+								<li data-groups='["tech"]' >
+									<div class='inner' >
+										<img src='img/portfolio/5.jpg' alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-5' class='view-project' >
+												View Project
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-5' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src='img/portfolio/5.jpg' alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>My Project Title</h4>
+													
+													<!--project popup description-->
+													<p>
+														Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat vituperata suscipiantur et, et fabellas explicari adipiscing quo, no mucius euismod vis. Cu vim quem quod cibo.
+													</p>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+								
+								<li data-groups='["photography"]' >
+									<div class='inner' >
+										<img src='img/portfolio/6.jpg' alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-6' class='view-project' >
+												View Project
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-6' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src='img/portfolio/6.jpg' alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>My Project Title</h4>
+													
+													<!--project popup description-->
+													<p>
+														Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat vituperata suscipiantur et, et fabellas explicari adipiscing quo, no mucius euismod vis. Cu vim quem quod cibo.
+													</p>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+								
+							</ul>
+							
+						</div>
+					
+					</div>
+					
+				</section>
+				
+				
+				<!--=====================================================
+					Contact Section
+				=====================================================-->
+				<section id='contact' class='section contact-section border-d' >
+					
+					<div class='section-block contact-block' >
+						
+						<div class='container-fluid' >
+							
+							<div class='section-header' >
+								<h2>Contact <strong class='color' >Me</strong></h2>
+							</div>
+							
+							
+							<div class='row' >
+							
+								<div class='col-md-8' >
+									
+									<div class='contact-form' >
+									
+										<form id='contact-form' data-toggle='validator' method='post' action='mail.php' >
+										
+											<div id='contact-form-result' ></div>
+										
+											<div class='row' >
+												
+												<div class='col-md-6' >
+													<div class='form-group' >
+														
+														<input type='text' class='form-control' placeholder='Name' name='name' required>
+														<div class='help-block with-errors' ></div>
+														
+													</div>												
+												</div>
+												
+												<div class='col-md-6' >
+													<div class='form-group' >
+														
+														<input type='email' class='form-control' placeholder='Email' name='email' required>
+														<div class='help-block with-errors' ></div>
+													
+													</div>
+												</div>
+												
+											</div>
+											
+											<div class='form-group' >
+												
+												<input type='text' class='form-control' placeholder='Subject' name='subject' required>
+												<div class='help-block with-errors' ></div>
+											
+											</div>
+											
+											<div class='form-group' >
+												
+												<textarea class='form-control' placeholder='Message' name='message' rows='5' required></textarea>
+												<div class='help-block with-errors' ></div>
+												
+											</div>
+											
+											<div class='form-group text-center' >
+												<button type='submit' class='btn-custom btn-color' >
+													Send Message
+												</button>
+											</div>
+											
+										</form>
+										
+									</div>
+									
+									
+								</div>
+								
+								<div class='col-md-4' >
+									
+									<div class='contact-info-icons' >
+										
+										<div class='contact-info' >
+											
+											<i class='ion-ios-location-outline' ></i>
+											
+											<p>
+												1254 Patterson Street<br>
+												Houston, TX 77025
+											</p>
+											
+										</div>
+										
+										
+										<div class='contact-info' >
+											
+											<i class='ion-ios-telephone-outline' ></i>
+											
+											<p>
+												(+123) 713-295-4383<br>
+												(+123) 913-295-2583
+											</p>
+											
+										</div>
+										
+										
+										<div class='contact-info' >
+											
+											<i class='ion-android-globe' ></i>
+											
+											<p>
+												www.google.com<br>
+												www.example.com
+											</p>
+											
+										</div>
+										
+										
+										
+										
+									</div>
+									
+									
+									
+								</div>
+								
+								
+							</div>
+							
+							
+							
+						</div>
+					
+					</div>
+					
+				</section>
+				
+			</div>
+			
+		</div>
+		
+		
+		<!--=====================================================
+			JavaScript Files
+		=====================================================-->
+		<script src='js/jquery.min.js' ></script>
+		<script src='js/jquery.shuffle.min.js' ></script>
+		<script src='js/owl.carousel.min.js' ></script>
+		<script src='js/jquery.magnific-popup.min.js' ></script>
+		<script src='js/validator.min.js' ></script>
+		<script src='js/script.js' ></script>
+		
+	</body>
 </html>
