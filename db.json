@@ -1,0 +1,96 @@
+{
+    "deepak": {
+        "key": "//json-server --watch db.json ",
+        "uid": "deepak",
+        "email": "dev2sharma2k@gmail.com",
+        "contact_number": "918882113059",
+        "username": "dsdsharma",
+        "active": true,
+        "active_design": "normal",
+        "name": "Deepak Sharma",
+        "cardsData": {
+            "banner": {
+                "design_id": "simple_banner",
+                "banner_image": "https://wallpapercave.com/dwp1x/wp4286410.jpg",
+                "profile_image": "https://wallpapercave.com/dwp1x/wp4286410.jpg",
+                "name": "Deepak Sharma",
+                "bio": "Flutter Developer"
+            },
+            "personal_info": {
+                "design_id": "simple_personal_info",
+                "contact_number": [
+                    "8882113059",
+                    "8700135741"
+                ],
+                "whatsapp_number": "8882113059",
+                "email": "dev2sharma2k@gmail.com",
+                "webiste": "www.dabmedia.in",
+                "address": "badarpur",
+                "about": "A random about is the perfect content to fill in the about section."
+            },
+            "gallery": {
+                "design_id": "simple_gallery",
+                "images": [
+                    "url",
+                    "url",
+                    "url"
+                ]
+            },
+            "item_grid": {
+                "design_id": "simple_itemgrid",
+                "title": "Loan Files",
+                "itemboxes": [
+                    {
+                        "design_id": "simple_itembox",
+                        "box_id": "uniqueid",
+                        "images": [
+                            "url",
+                            "url",
+                            "url"
+                        ],
+                        "title": "HDFC bank",
+                        "description": "a description",
+                        "available": true,
+                        "data": "url"
+                    },
+                    {
+                        "design_id": "simple_itembox",
+                        "box_id": "uniqueid",
+                        "images": [
+                            "url",
+                            "url",
+                            "url"
+                        ],
+                        "title": "ICICI bank",
+                        "description": "a description",
+                        "available": true,
+                        "data": "url"
+                    }
+                ]
+            },
+            "testimonials": {
+                "design_id": "simple_testimonials",
+                "testimonials": [
+                    {
+                        "id": "uid",
+                        "testinomnail": "a review",
+                        "rating": 5,
+                        "name": "Sanjay Kumar"
+                    },
+                    {
+                        "id": "uid",
+                        "testinomnail": "a review",
+                        "rating": 5,
+                        "name": "Sanjay Kumar"
+                    },
+                    {
+                        "id": "uid",
+                        "testinomnail": "a review",
+                        "rating": 5,
+                        "name": "Sanjay Kumar"
+                    }
+                ]
+            }
+        }
+    }
+}
