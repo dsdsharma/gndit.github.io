@@ -11,8 +11,8 @@
         "cardsData": {
             "banner": {
                 "design_id": "simple_banner",
-                "banner_image": "https://wallpapercave.com/dwp1x/wp4286410.jpg",
-                "profile_image": "https://wallpapercave.com/dwp1x/wp4286410.jpg",
+                "banner_image": "https://raw.githubusercontent.com/dsdsharma/gndit.github.io/master/back.jpg",
+                "profile_image": "https://raw.githubusercontent.com/dsdsharma/gndit.github.io/master/banana.jpg",
                 "name": "Deepak Sharma",
                 "bio": "Flutter Developer"
             },
