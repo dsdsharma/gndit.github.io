@@ -18,10 +18,7 @@
             },
             "personal_info": {
                 "design_id": "simple_personal_info",
-                "contact_number": [
-                    "8882113059",
-                    "8700135741"
-                ],
+                "contact_number": "8882113059",
                 "whatsapp_number": "8882113059",
                 "email": "dev2sharma2k@gmail.com",
                 "webiste": "www.dabmedia.in",
@@ -31,9 +28,9 @@
             "gallery": {
                 "design_id": "simple_gallery",
                 "images": [
-                    "url",
-                    "url",
-                    "url"
+                    "https://raw.githubusercontent.com/dsdsharma/gndit.github.io/master/back.jpg",
+                    "https://raw.githubusercontent.com/dsdsharma/gndit.github.io/master/back.jpg",
+                     "https://raw.githubusercontent.com/dsdsharma/gndit.github.io/master/back.jpg"
                 ]
             },
             "item_grid": {
